@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="generator"
+          content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org" />
+    <meta content="text/html; charset=us-ascii"
+          http-equiv="content-type" />
+
+    <title>ElectricFlow Plugin for Python</title>
+    <link rel="stylesheet"
+          href="../../plugins/@PLUGIN_KEY@/pluginhelp.css"
+          type="text/css"
+          media="screen" />
+</head>
+
+<body>
+    <div class="help">
+        <h1>Python</h1>
+
+        <p>Plugin Version @PLUGIN_VERSION@</p>
+        <hr style="margin-left: -10px; margin-top: 10px; height: 1px; width: 100%; color: #5981BD;"
+            noshade="noshade" />
+
+		<p>July 1, 2015</p>	
+			
+        <p>Python is a programming language that lets you work more
+        quickly and integrate your systems more effectively. You
+        can learn to use Python and see almost immediate gains in
+        productivity and lower maintenance costs.</p>
+
+        <h2>Python Links</h2>
+
+        <p>More information can be found at
+        <a href="http://www.python.org/">this website</a>.</p>
+
+        <h2>ElectricFlow Integration to Python</h2>
+
+        <p>The EC-Python plugin allows you to run any Python script
+        by writing it directly in the script area provided or
+        provide the path to any python file.</p>
+
+        <p>The plugin also allows you to review the log that
+        contains output and errors resulting from execution, just
+        as the Python compiler does.</p>
+
+        <h2>Integrated Version</h2>
+
+        <p>This plugin was developed and tested against version
+        2.7.2.</p>
+
+        <h1>Plugin Procedures</h1>
+
+        <p>IMPORTANT: For all parameter descriptions below,
+        required parameters are shown in
+        <span class='required'>bold italics</span>.</p>
+
+        <div id="runPython">
+            <a name='runPython'
+                 id="runPython"></a> 
+
+            <h3>runPython</h3>
+
+            <p>This procedure allows you to execute python code
+            from a textarea or a python file and shows the result
+            in a log file.</p>
+
+            <table class="grid">
+                <thead>
+                    <tr>
+                        <th>Parameter</th>
+
+                        <th>Description</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Python Location</td>
+
+                        <td>Absolute path to the python
+                        executable.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Python File</td>
+
+                        <td>Absolute path to a python file.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Script</td>
+
+                        <td>Enter python code.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Environment variables</td>
+
+                        <td>Set Environment variables during the
+                        step execution using Perl syntax. e.g
+                        $ENV{'USERNAME'} = "user";</td>
+                    </tr>
+                </tbody>
+            </table><img src="../../plugins/@PLUGIN_KEY@/images/Python-1.png"
+                 alt="Form" />
+        </div>
+
+        <h1>Examples and Use Cases</h1>
+
+        <p>There are two ways to use this plugin to create python
+        based steps. The first one is to write python code in the
+        text area field and the other one is to execute a single
+        python file.<br />
+         Examples:</p>
+
+        <h2>Execute python from
+        textarea</h2><img src="../../plugins/@PLUGIN_KEY@/images/Python-1.png"
+             alt="TextArea" /> 
+
+        <h2>
+        Result</h2><img src="../../plugins/@PLUGIN_KEY@/images/Python-2.png"
+             alt="Results-1" /> 
+
+        <h2>Execute a python
+        file</h2><img src="../../plugins/@PLUGIN_KEY@/images/Python-3.png"
+             alt="File" /> 
+
+        <h2>
+        Result</h2><img src="../../plugins/@PLUGIN_KEY@/images/Python-4.png"
+             alt="Result-2" /> 
+        <hr style="margin-top: 20px; height: 2px; width: 100%;"
+            noshade="noshade" />
+
+        <h1>Release Notes</h1>
+		
+		 <h2>@PLUGIN_KEY@ 2.0.6</h2>
+
+        <ul>
+            <li>Renamed ElectricCommander to ElectricFlow.</li>
+
+        </ul>
+
+        <h2>@PLUGIN_KEY@ 2.0.5</h2>
+
+        <ul>
+            <li>"Python Location" parameter was added.</li>
+
+            <li>Now you are able to set environment variables
+            before running the python commands.</li>
+        </ul>
+
+        <h2>@PLUGIN_KEY@ 2.0.4</h2>
+
+        <ul>
+            <li>Mispelling correction on step chooser name</li>
+        </ul>
+
+        <h2>@PLUGIN_KEY@ 2.0.3</h2>
+
+        <ul>
+            <li>Procedure name(s) were changed in the step picker
+            section</li>
+        </ul>
+
+        <h2>@PLUGIN_KEY@ 2.0.2</h2>
+
+        <ul>
+            <li>Corrections on the help page tags</li>
+        </ul>
+
+        <h2>@PLUGIN_KEY@ 2.0.1</h2>
+
+        <ul>
+            <li>Change Help page style</li>
+        </ul>
+
+        <h2>@PLUGIN_KEY@ 2.0.0</h2>
+
+        <ul>
+            <li>Added the "Python File" parameter</li>
+
+            <li>XML Parameter panel</li>
+
+            <li>Help page was changed</li>
+        </ul>
+    </div>
+</body>
+</html>

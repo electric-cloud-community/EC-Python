@@ -1,0 +1,32 @@
+<editor>
+    <help>/commander/pages/@PLUGIN_NAME@/@PLUGIN_KEY@_help?s=Administration&amp;ss=Plugins#runPython</help>
+    <formElement>
+        <type>entry</type>
+        <value>python</value>
+        <label>Python Location:</label>
+        <property>pythonLocation</property>
+        <documentation>Absolute path to the python executable.</documentation>
+        <required>0</required>
+    </formElement>
+    <formElement>
+        <type>entry</type>
+        <label>Python File:</label>
+        <property>pythonFile</property>
+        <documentation>Absolute path to a python file.</documentation>
+        <required>0</required>
+    </formElement>
+    <formElement>
+        <type>textarea</type>
+        <label>Script:</label>
+        <property>pythonCode</property>
+        <documentation>Enter python code.</documentation>
+        <required>0</required>
+    </formElement>
+    <formElement>
+        <type>textarea</type>
+        <label>Environment variables:</label>
+        <property>envVariables</property>
+        <documentation>Set Environment variables during the step execution using perl syntax.</documentation>
+        <required>0</required>
+    </formElement>
+</editor>
