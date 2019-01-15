@@ -1,0 +1,15 @@
+<?xml version='1.0' standalone='yes'?>
+<fileset>
+  <file>
+    <path>pythonDriver.pl</path>
+    <xpath>//property[propertyName=&quot;pythonDriver&quot;]/value</xpath>
+  </file>
+  <file>
+    <path>forms/runPython.xml</path>
+    <xpath>//procedure[procedureName=&quot;runPython&quot;]/propertySheet/property[propertyName=&quot;ec_parameterForm&quot;]/value</xpath>
+  </file>
+  <file>
+    <path>ec_setup.pl</path>
+    <xpath>//property[propertyName=&quot;ec_setup&quot;]/value</xpath>
+  </file>
+</fileset>
